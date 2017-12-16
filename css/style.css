@@ -65,13 +65,8 @@ a{color:inherit}
 .opacity,.hover-opacity:hover{opacity:0.60}.opacity-off,.hover-opacity-off:hover{opacity:0.75}
 
 .text-white,.hover-text-white:hover{
-<<<<<<< HEAD
 	color:white!important;
 	text-shadow: gray 0.0em 0.0em 10px, gray 0.0em 0.0em 2px, gray 0.0em 0.0em 1px;
-=======
-	color:#fff!important;
-	text-shadow: gray 0.0em 0.0em 10px, gray 0.0em 0.0em 3px, gray 0.0em 0.0em 1px;
->>>>>>> c72b0817ebbc67e8ab4ee231b4bee35f1fc3a12e
 }
 .round-small{border-radius:2px}.round,.round-medium{border-radius:4px}.round-large{border-radius:8px}.round-xlarge{border-radius:16px}.round-xxlarge{border-radius:32px}
 .padding-small{padding:4px 8px!important}.padding{padding:8px 16px!important}.padding-large{padding:12px 24px!important}
@@ -91,9 +86,10 @@ a{color:inherit}
 .top,.bottom{position:fixed;width:100%;z-index:1}
 .bottom{bottom:0}
 
-.w3-hide-small{display:none!important}
+.hide-small{display:none!important}
 
 @media (max-width:600px){.modal-content{margin:0 10px;width:auto!important}.modal{padding-top:30px}
+
 .dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}	
 .hide-small{display:none!important}.mobile{display:block;width:100%!important}.bar-item.mobile,.dropdown-hover.mobile,.ropdown-click.mobile{text-align:center}
 .dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
