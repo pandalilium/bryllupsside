@@ -15,6 +15,11 @@ body {
 	margin:0;
 }
 
+@font-face {
+	font-family: "TextRegular";
+	src: url("caladea-regular.ttf");
+}
+
 @font-face{
 	font-family: 'Light';
 	src: url('Raleway-Light.ttf');
@@ -83,6 +88,8 @@ h3,h4,h5,h6 {
 
 p {
 	line-height: 2;
+	font-family: TextRegular;
+	font-size: 14pt;
 }
 
 .bold {
