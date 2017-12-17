@@ -30,10 +30,10 @@ body {
 }
 
 h1, h2 { 
-	font-family: Light; 
-	text-align:center; 
-	font-weight:100;
-	margin:10px 0;
+    font-family: Light; 
+    text-align:center; 
+    font-weight:100;
+    margin:10px 0;
 } 
 
 body, html {
@@ -88,7 +88,7 @@ p {
 .bold {
 	font-family: Regular;
 	text-align:center; 
-	margin:10px 0;
+    margin:10px 0;
 }
 
 .bar {
@@ -116,7 +116,7 @@ p {
 }
 
 .bar .button {
-	white-space:normal
+	white-space:normal;
 }
 
 .bar-block .bar-item {
@@ -127,7 +127,7 @@ p {
 	border:none;
 	outline:none;
 	white-space:normal;
-	float:none
+	float:none;
 }
 
 .bar-block.center .bar-item {
@@ -139,9 +139,9 @@ p {
 }
 
 .bgimg, .bgimg2 {
-	min-height: 100%;
-	background-position: center;
-	background-size: cover;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 .bgimg {
 	background-image: url("../img/IMG_1669.JPG");
@@ -152,11 +152,11 @@ p {
 
 .button:hover {
 	color:#000!important;
-	background-color:#ccc!important
+	background-color:#ccc!important;
 }
 
 .center {
-	text-align:center!important
+	text-align:center!important;
 }
 
 .container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before, 
