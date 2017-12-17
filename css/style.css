@@ -114,7 +114,7 @@ p {
 	width:auto;
 	border:none;
 	outline:none;
-	display:block
+	display:block;
 }
 
 .bar .dropdown-hover,.bar .dropdown-click{
@@ -190,7 +190,7 @@ p {
 .container,.panel{padding:0.01em 16px}.panel{margin-top:16px;margin-bottom:16px}
 .content{max-width:980px;margin:auto}.rest{overflow:hidden}
 .display-container{
-	position:relative
+	position:relative;
 }
 
 .grayscale-min{filter:grayscale(50%)}
