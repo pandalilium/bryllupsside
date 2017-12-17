@@ -166,6 +166,10 @@ p {
 	text-align:center!important;
 }
 
+.top-margin24 {
+	margin-top: 24px; 
+}
+
 .container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before, 
 .row-padding:after, .row-padding:before, .cell-row:before, .cell-row:after, .clear:after, 
 .clear:before, .bar:before, .bar:after {
