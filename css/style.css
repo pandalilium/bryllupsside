@@ -166,8 +166,14 @@ p {
 	text-align:center!important;
 }
 
+.top-margin16 {
+	margin-top: 16px; 
+}
 .top-margin24 {
 	margin-top: 24px; 
+}
+.top-margin32 {
+	margin-top: 32px; 
 }
 
 .container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before, 
