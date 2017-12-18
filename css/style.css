@@ -17,7 +17,7 @@ body {
 
 @font-face {
 	font-family: "TextRegular";
-	src: url("Raleway-Regular.ttf");
+	src: url("Lora-Regular.ttf");
 }
 
 @font-face{
@@ -46,15 +46,28 @@ body, html {
 }
 
 a {
-	font-family: Regular;
-	background-color:transparent;
-	-webkit-text-decoration-skip:objects;
-	color:inherit;
-	text-decoration: none;
+	font-family: inherit;
+	/*font-style: italic;*/
+	color: #31729b;
 }
 
 a:active, a:hover {
 	outline-width:0;
+	text-decoration: underline;
+}
+
+.button {
+	font-size: 13pt;
+	font-family: Regular;
+	font-style: normal;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+	color: inherit;
+	text-decoration: none;
+}
+
+.button:hover {
+	text-decoration: none;
 }
 
 abbr [title] {
@@ -64,10 +77,10 @@ abbr [title] {
 }
 
 h1 {
-	font-size:36px;
+	font-size:40px;
 }
 h2 {
-	font-size:30px;
+	font-size:34px;
 }
 h3 {
 	font-size:24px;
@@ -89,7 +102,8 @@ h3,h4,h5,h6 {
 p {
 	line-height: 2;
 	font-family: TextRegular;
-	font-size: 14pt;
+	letter-spacing: -0.5px;
+	font-size: 13pt;
 }
 
 p.credit {
