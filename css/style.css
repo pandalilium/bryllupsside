@@ -17,17 +17,17 @@ body {
 
 @font-face {
 	font-family: "TextRegular";
-	src: url("caladea-regular.ttf");
+	src: url("Raleway-Regular.ttf");
 }
 
 @font-face{
 	font-family: 'Light';
-	src: url('Raleway-Light.ttf');
+	src: url('JosefinSlab-Light.ttf');
 }
 
 @font-face{
 	font-family: 'Regular';
-	src: url('Raleway-Regular.ttf');
+	src: url('JosefinSlab-Regular.ttf');
 }
 
 * {
