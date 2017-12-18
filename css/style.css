@@ -20,6 +20,11 @@ body {
 	src: url("Lora-Regular.ttf");
 }
 
+@font-face {
+	font-family: "HandWritten";
+	src: url("IndieFlower.ttf");
+}
+
 @font-face{
 	font-family: 'Light';
 	src: url('JosefinSlab-Light.ttf');
@@ -47,6 +52,7 @@ body, html {
 
 a {
 	font-family: inherit;
+	text-decoration: none;
 	/*font-style: italic;*/
 	color: #31729b;
 }
@@ -111,6 +117,10 @@ p.credit {
 	font-family: Regular;
 	font-weight: 100;
 	color: white;
+}
+
+.handwritten {
+	font-family: HandWritten;
 }
 
 .bold {
@@ -237,7 +247,7 @@ p.credit {
 
 .grayscale-min{filter:grayscale(50%)}
 
-.jumbo{font-size:64px!important}
+.jumbo{font-size:70px!important}
 
 .display-skewed{position:absolute;top:50%;left:60%;transform:translate(-20%,-50%);-ms-transform:translate(-20%,-50%)}
 .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
@@ -261,7 +271,9 @@ p.credit {
 .black,.hover-black:hover{color:#fff!important;background-color:#000!important}
 .pale-red,.hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
 .pale-blue,.hover-pale-blue:hover{color:#000!important;background-color:#e6f5ff!important}
+.navy-blue,.hover-navy-blue:hover{color:#000!important;background-color:#e8edfc!important}
 .pale-green,.hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.pale-copper,.hover-pale-copper:hover{color:#000!important;background-color:#ecd9c6!important}
 .pale-yellow,.hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#757575!important}
 .text-light-grey,.hover-text-light-grey:hover,.text-light-gray,.hover-text-light-gray:hover{color:#f1f1f1!important}
