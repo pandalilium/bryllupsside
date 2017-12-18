@@ -51,7 +51,7 @@ a {
 	color: #31729b;
 }
 
-a:active, a:hover {
+a:hover {
 	outline-width:0;
 	text-decoration: underline;
 }
@@ -184,6 +184,9 @@ p.credit {
 }
 .flowerimg {
 	background-image: url("../img/wallpaper4.jpg");
+}
+.churchimg {
+	background-image: url("../img/church.JPG");
 }
 
 .button:hover {
