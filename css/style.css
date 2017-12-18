@@ -92,6 +92,13 @@ p {
 	font-size: 14pt;
 }
 
+p.credit {
+	font-size: 10pt;
+	font-family: Regular;
+	font-weight: 100;
+	color: white;
+}
+
 .bold {
 	font-family: Regular;
 	text-align:center; 
@@ -145,16 +152,24 @@ p {
 	display:block;width:100%;
 }
 
-.bgimg, .bgimg2 {
+.bgimg {
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
+
+.midimg {
+    min-width: 100%;
+    min-height: 65%;
+    background-position: center;
+    background-size: cover;
+}
+
 .bgimg {
 	background-image: url("../img/IMG_1669.JPG");
 }
-.bgimg2 {
-	background-image: url("../img/wallpaper.jpg");
+.flowerimg {
+	background-image: url("../img/wallpaper4.jpg");
 }
 
 .button:hover {
@@ -208,8 +223,8 @@ p {
 .jumbo{font-size:64px!important}
 
 .display-skewed{position:absolute;top:50%;left:60%;transform:translate(-20%,-50%);-ms-transform:translate(-20%,-50%)}
-
 .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.display-bottomright{position:absolute;top:99%;left:98%;transform:translate(-99%,-98%);-ms-transform:translate(-99%,-98%)}
 
 .opacity-max{opacity:0.25}.opacity-min{opacity:0.75}
 
