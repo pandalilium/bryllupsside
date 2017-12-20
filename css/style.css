@@ -208,6 +208,10 @@ p.credit {
 	text-align:center!important;
 }
 
+.justify {
+	text-align: justify!important;
+}
+
 .top-margin16 {
 	margin-top: 16px; 
 }
