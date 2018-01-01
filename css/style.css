@@ -119,6 +119,27 @@ p.credit {
 	color: white;
 }
 
+.topleft {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9px;
+}
+
+a.nostyle {
+	border: 0px;
+	text-decoration: none;
+}
+
+.flagicon {
+	height: 20px;
+	margin: 2px;
+	border-radius: 5px;
+	z-index: 99;
+}
+
 .handwritten {
 	font-family: HandWritten;
 }
@@ -187,6 +208,7 @@ p.credit {
     min-height: 65%;
     background-position: center;
     background-size: cover;
+    z-index: -1;
 }
 
 .bgimg {
